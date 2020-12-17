@@ -1,0 +1,22 @@
+.routes {
+ 
+  
+    &:hover {
+      cursor: pointer;
+  
+      & .route {
+        opacity: 1;
+      }
+    }
+  
+    .route {
+      opacity: 0.5;
+      h1 {
+        font-weight: bold;
+        margin: 0 10px 0;
+        font-size: 2em;
+        color: #3a0226;
+      }
+    }
+  }
+  
